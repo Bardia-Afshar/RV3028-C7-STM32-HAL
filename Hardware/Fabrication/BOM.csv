@@ -1,0 +1,9 @@
+Quantity,Name,Designator,Description,LCSC Part #
+
+"1","CR1220","BT1","Battery base CR1220 Through Hole Blade Type Power Connector Assemblies RoHS","C5365933"
+"2","100nF","C1, C2","Capacitor, SMD 0402 Package, 1.0×0.5 mm Body","C1525"
+"1","Green","D1","LED, SMD 0603 Package, 1.6×0.8 mm Body","C19189745"
+"2","2.2K","R1, R2","Resistor, SMD 0402 Package, 1.0×0.5 mm Body","C25879"
+"2","10K","R3, R5","Resistor, SMD 0402 Package, 1.0×0.5 mm Body","C25744"
+"1","1K","R4","Resistor, SMD 0402 Package, 1.0×0.5 mm Body","C11702"
+"1","RV-3028-C7","U1","Real-Time Clock Module in 1.5 x 3.2 mm package","C3019759"

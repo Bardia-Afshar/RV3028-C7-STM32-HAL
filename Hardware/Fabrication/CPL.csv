@@ -1,0 +1,12 @@
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"BT1","CR1220","TopLayer","KH-CR1220-2","147.1930","51.3850","90","Battery base CR1220 Through Hole Blade Type Power Connector Assemblies RoHS"
+"R4","1K","TopLayer","RES_0402_IPC_MEDIUM_DENSITY","158.2069","43.0023","0","Resistor, SMD 0402 Package, 1.0×0.5 mm Body"
+"D1","Green","TopLayer","LED_0603_MEDIUM_DENSITY","158.1589","44.3993","180","LED, SMD 0603 Package, 1.6×0.8 mm Body"
+"U1","RV-3028-C7","TopLayer","IC_RV-3028-C7","157.8500","54.3902","0","Real-Time Clock Module in 1.5 x 3.2 mm package"
+"R5","10K","TopLayer","RES_0402_IPC_MEDIUM_DENSITY","156.3915","57.5158","270","Resistor, SMD 0402 Package, 1.0×0.5 mm Body"
+"R3","10K","TopLayer","RES_0402_IPC_MEDIUM_DENSITY","156.3048","48.8119","270","Resistor, SMD 0402 Package, 1.0×0.5 mm Body"
+"R2","2.2K","TopLayer","RES_0402_IPC_MEDIUM_DENSITY","157.8172","48.8119","270","Resistor, SMD 0402 Package, 1.0×0.5 mm Body"
+"R1","2.2K","TopLayer","RES_0402_IPC_MEDIUM_DENSITY","159.3296","48.8119","270","Resistor, SMD 0402 Package, 1.0×0.5 mm Body"
+"C2","100nF","TopLayer","CAP_0402_IPC_MEDIUM_DENSITY","159.3085","57.5158","270","Capacitor, SMD 0402 Package, 1.0×0.5 mm Body"
+"C1","100nF","TopLayer","CAP_0402_IPC_MEDIUM_DENSITY","157.8500","57.5158","270","Capacitor, SMD 0402 Package, 1.0×0.5 mm Body"
+
