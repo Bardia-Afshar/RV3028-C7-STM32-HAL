@@ -99,6 +99,35 @@ RV3028-C7-STM32-HAL/
 The driver targets STM32 HAL out of the box via `rv3028_i2c.c`. To use a different STM32 series, change one include line. To port to another microcontroller entirely — ESP32, nRF52, bare-metal AVR — replace only `rv3028_i2c.c` with your own I²C implementation.
 
 ---
+## Nano RTC Example
+
+The [`Firmware/Example_NanoRTC/`](Firmware/Example_NanoRTC/) folder contains a complete working example that runs on a **NUCLEO-G431KB** paired with the developer board from this repo. It reads the RTC and prints date, time, and UNIX timestamp over UART every second.
+
+### Wiring
+
+Connect the developer board to the NUCLEO-G431KB as follows:
+
+| Developer Board | NUCLEO-G431KB |
+|---|---|
+| SDA | PB7 |
+| SCL | PA15 |
+| VCC | 3.3V |
+| GND | GND |
+
+### UART Output
+
+The example outputs over the onboard ST-LINK virtual COM port. To enable it, solder bridges **SB1** and **SB12** on the NUCLEO board.
+
+Then open a terminal (e.g. MobaXterm, PuTTY, or any serial monitor) and connect at **115200 baud**. You should see the RTC output printed every second.
+
+
+
+
+https://github.com/user-attachments/assets/ee085a67-ac73-4f18-a868-308c0b83cb8d
+
+
+
+
 
 ## Integration
 
