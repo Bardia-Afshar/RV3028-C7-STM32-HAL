@@ -86,12 +86,13 @@ Hardware/
 ```
 RV3028-C7-STM32-HAL/
 ├── Firmware/
-│   ├── rv3028.h          # Public API
-│   ├── rv3028.c          # Driver implementation
-│   ├── rv3028_i2c.h      # I²C abstraction interface
-│   ├── rv3028_i2c.c      # STM32 HAL implementation
-│   └── Example_NanoRTC/  # Example project — NUCLEO-G431KB, outputs date/time over UART
-├── Hardware/             # Schematic, Gerbers, BOM
+│   ├── Src/
+│   │   ├── rv3028.h          # Public API
+│   │   ├── rv3028.c          # Driver implementation
+│   │   ├── rv3028_i2c.h      # I²C abstraction interface
+│   │   └── rv3028_i2c.c      # STM32 HAL implementation
+│   └── Example_NanoRTC/      # Example project — NUCLEO-G431KB, outputs date/time
+├── Hardware/                 # Schematic, Gerbers, BOM
 ├── LICENSE
 └── README.md
 ```
